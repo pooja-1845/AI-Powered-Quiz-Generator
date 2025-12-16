@@ -1,76 +1,47 @@
-# AI-Powered Quiz Generator
+# Simple Quiz Generator (Python)
 
-A simple Python project that **generates random quizzes**, grades your answers, and tracks your performance.  
+This is a beginner-friendly Python project that generates random math quiz questions, checks user answers, and calculates the final score.
 
-This project helps you **practice math or general knowledge questions**, get immediate feedback, and save your scores. It uses Python features like **OOP, functions, exception handling, file handling, random module, and advanced topics like lambda, map, and reduce**.
+The project uses **basic Python concepts** like functions, loops, conditionals, and **basic OOP (class & object)**. It also saves the quiz score with date and time in a file.
 
 ---
 
 ## Features
 
-- Auto-generate random quiz questions.
-- Grade your answers immediately.
-- Track your score with timestamps.
-- Save scores in a CSV file for future reference.
-- Easy to extend with more subjects or question types.
+- Generates random math questions
+- Takes user input and checks answers
+- Displays correct or wrong instantly
+- Calculates final score
+- Saves score with timestamp in a file
 
 ---
 
-## Installation
+## Technologies Used
 
-1. Make sure Python 3.x is installed on your system.
-2. Clone this repository:  
+- Python
+- Random module
+- Datetime module
+- Basic OOP (Class & Object)
+- File handling
+
+---
+
+## How to Run
+
+1. Make sure Python is installed
+2. Run the file:
    ```bash
-   git clone https://github.com/your-username/ai-quiz-generator.git
-Navigate to the project folder:
-
-bash
-Copy code
-cd ai-quiz-generator
-Run the program:
-
-bash
-Copy code
-python quiz_generator.py
-How to Use
-Run the program.
-
-It will automatically generate 5 random math questions.
-
-Enter your answer for each question.
-
-The program will tell you if your answer is correct or wrong.
-
-After the quiz, it shows your total score and saves it in a CSV file.
-
-Technologies Used
-Python 3
-
-CSV (to save scores)
-
-Datetime (for timestamping scores)
-
-Random (for generating questions)
-
-Advanced Python: lambda, map, reduce
-
-OOP: Question class
-
-Why This Project is Useful
-Quizzes are a fun way to learn and test knowledge. This project automates quiz generation, gives instant feedback, and tracks performance, making learning easier and more interactive.
-
+   python quiz_generator.py
 Example Output
 vbnet
 Copy code
 Welcome to AI-Powered Quiz Generator!
-What is 12 + 7? 19
+What is 10 + 5? 15
 Correct!
-What is 8 * 6? 48
-Correct!
-What is 30 - 5? 25
-Correct!
+What is 8 * 6? 40
+Wrong! Correct answer: 48
 
-Your score: 3/3
+Your score: 1/2
 
 
 Author
@@ -78,5 +49,3 @@ Author
 Pooja Vanzara
 
 B.Tech CSE Student
-
-Python Enthusiast
